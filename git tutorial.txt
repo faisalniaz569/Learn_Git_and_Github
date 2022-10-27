@@ -1,0 +1,180 @@
+Difference between Github and Git
+==================================
+
+Github:
+
+1) Service,
+2) Host git - repository/folder/source code
+3) Provides GUI interface
+4) Maintain on web
+5) Released on 2008
+
+Git:
+
+1) Tool/software
+2) Change control, version control
+3) Provides CLI (command line interface)
+4) Installed and maintain locally
+5) Released on 2005
+
+Git Download:
+==============
+Download link - http://git-scm.com/download
+
+Git BASH: গিট বাশ হলো মাইক্রোসফট উইন্ডোজ ইনভরনমেন্টের জন্য এমন একটি এপ্লিকেশন যা গিট্ কম্যান্ড লাইন এর মাধ্যমে এমুলেশন লেয়ার 
+প্রদান করে। 
+
+Git GUI: git gui ব্যবহারকারীদের নতুন প্রতিশ্রুতি তৈরি করে, 
+বিদ্যমানগুলি সংশোধন করে, শাখা তৈরি করে, স্থানীয় একীভূতকরণ সম্পাদন করে এবং 
+দূরবর্তী সংগ্রহস্থলে আনয়ন/পুশ করে তাদের সংগ্রহস্থলে পরিবর্তন করার অনুমতি দেয়।
+
+GitHub:
+
+Create a github account.
+
+Git code cheatsheet:
+====================
+
+** version:
+git --version
+
+** configure:
+git config
+
+** username:
+git config --global user.name "faisalniaz569"
+
+** useremail:
+git config --global user.email niazfaisal@yahoo.com
+
+** Enter code editor:
+code .. (enter)
+git config --global core.editor "code --wait"
+
+** List
+git config --list
+
+** Kothai achen
+pwd
+
+** What's in the folder? 
+ls
+ls -a
+
+** git chalu koar jonno:
+git init
+
+** Delete a file or folder or git:
+rm -rf .git
+
+** create a file:
+touch test.txt
+
+** write in text file:
+echo This is Html Template > test.txt
+
+** Show status:
+git status
+
+** Add all files (Unstage to stage files)
+git add test.txt, test2.txt
+git add *.txt
+git add --all
+git add -A
+git add .
+
+** stage to unstage files
+git rm --cached test.txt
+
+** Git Commit
+git commit
+git commit -m "First release of Project Html Template."
+
+** Git Commit Log
+git log
+git log --oneline
+git log --oneline --reverse
+
+git reset --hard HEAD^
+
+** Check status
+git status --short
+M index.html
+
+?? - Untracked files
+A - Files added to stage
+M - Modified files
+D - Deleted files
+
+** commit modifides
+git commit -a -m "Updated index.html with a new line"
+
+** remove file
+rm file2.txt
+
+** back to stage
+git restore test.txt
+
+** Renaming/Moving files
+mv file1.txt main.js
+
+** gitignore files
+test.txt
+.env
+*.txt
+!main.txt
+test?.txt
+temp/
+
+** Short Satus
+git status -s
+
+** Restoring a file in earlier version
+git restore -h
+
+** Branch create 
+git branch hello-world-images
+
+** Move Branch
+git checkout hello-world-images
+
+** Branch delete
+git branch -d hello-world-images
+
+** ki ki branch ache?
+git branch
+
+** git issue
+create an issue in git.
+
+** Merge conflict
+
+** Fork 
+
+** Collaboration
+
+
+***************************************************
+
+echo "# Html5_Template" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/faisalniaz569/Html5_Template.git
+git push -u origin main
+
+git remote
+
+git remote -v
+git push -u origin master
+
+
+
+
+
+
+
+
+
+
