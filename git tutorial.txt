@@ -38,6 +38,9 @@ Git code cheatsheet:
 ** version:
 git --version
 
+** clear git page:
+clear
+
 ** configure:
 git config
 
